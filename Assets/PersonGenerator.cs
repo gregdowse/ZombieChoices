@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class PersonGenerator : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+	PersonClass Person = new PersonClass();
+
+	public void GeneratePerson(){
+		Person.FirstName = "Greg";
+		Person.LastName = "Dowse";
+		Person.Age = 27;
+		Person.Health = 100;
+		gameObject.GetComponent<SettlementScript>().People.Add(Person);
 	}
 }

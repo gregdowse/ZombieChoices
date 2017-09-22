@@ -46,6 +46,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Classes\DecisionClass.cs" />
+     <Compile Include="Assets\Classes\ItemClass.cs" />
+     <Compile Include="Assets\DecisionsScript.cs" />
+     <Compile Include="Assets\GUIScripts\DownButtonClickScript.cs" />
+     <Compile Include="Assets\GUIScripts\PeopleOverviewGUI.cs" />
+     <Compile Include="Assets\GUIScripts\UpButtonClickScript.cs" />
      <Compile Include="Assets\PersonClass.cs" />
      <Compile Include="Assets\PersonGenerator.cs" />
      <Compile Include="Assets\SettlementScript.cs" />
