@@ -39,6 +39,10 @@ public class PeopleOverviewGUI : MonoBehaviour {
 		int x = 0;
 		int y = 0;
 		for (int i = 0; i < gameObject.GetComponent<SettlementScript>().People.Count; i++) {
+            if (x > 2) {
+                y++;
+                x = 0;
+            }
 			GameObject Person = Instantiate(PersonHolder) as GameObject;
 			PeopleTiles.Add (Person);
 			Person.transform.SetParent(InternalHolder.transform);
@@ -46,11 +50,11 @@ public class PeopleOverviewGUI : MonoBehaviour {
 			Person.transform.localPosition = new Vector3(-630 + (630 * x),310 - (y * 250),0);
 			Person.transform.SetAsFirstSibling ();
 			x++;
-			if (x > 2) {
-				y++;
-				x = 0;
-			}
 		}
+        if(y > 2){
+            DownButton.GetComponent<DownButtonClickScript>().BreakPoint = (y * 250) + 130 - 750;
+        }
+
 	}
 
 	void DestroyPeople(){

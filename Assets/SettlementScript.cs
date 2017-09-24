@@ -16,19 +16,17 @@ public class SettlementScript : MonoBehaviour {
 		gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
 		gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
 		gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
-		gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
-		gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
-		gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
-		gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
-		gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
-		gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
-		gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
-		gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
-		gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
-		gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
-		gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
-		gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
-		gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
+        gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
+        gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
+        gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
+        gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
+        gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
+        gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
+        gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
+        gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
+        gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
+
+
 	}
 	
 	// Update is called once per frame
