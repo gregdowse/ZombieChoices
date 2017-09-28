@@ -6,27 +6,28 @@ using UnityEngine.UI;
 
 public class SettlementScript : MonoBehaviour {
 
-	public Button MakePerson;
+	public int TheTime;
+
+	public Button MenuButton;
+
+	public Button ScavengeButton;
+	public Button DefenceButton;
+	public Button CropsButton;
+	public Button SkipButton;
+
+	public Button PeopleButton;
 
 	public List<PersonClass> People = new List<PersonClass> ();
 	// Use this for initialization
 	void Start () {
-		MakePerson.onClick.AddListener (CallGeneratePerson);
+		MenuButton.onClick.AddListener (MenuButtonFunction);
 
-		gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
-		gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
-		gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
-        gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
-        gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
-        gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
-        gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
-        gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
-        gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
-        gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
-        gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
-        gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
+		ScavengeButton.onClick.AddListener (ScavengeButtonFunction);
+		DefenceButton.onClick.AddListener (DefenceButtonFunction);
+		CropsButton.onClick.AddListener (CropsButtonFunction);
+		SkipButton.onClick.AddListener (SkipButtonFunction);
 
-
+		PeopleButton.onClick.AddListener (PeopleButtonFunction);
 	}
 	
 	// Update is called once per frame
@@ -34,8 +35,29 @@ public class SettlementScript : MonoBehaviour {
 		
 	}
 
-	void CallGeneratePerson(){
-		gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
-		print (People);
+	void MenuButtonFunction(){
+	
 	}
+
+	void ScavengeButtonFunction(){
+
+	}
+
+	void DefenceButtonFunction(){
+
+	}
+
+	void CropsButtonFunction(){
+
+	}
+
+	void SkipButtonFunction(){
+		TheTime++;
+	}
+
+	void PeopleButtonFunction(){
+
+	}
+
+
 }
