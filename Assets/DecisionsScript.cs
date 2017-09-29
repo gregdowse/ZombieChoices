@@ -13,4 +13,21 @@ public class DecisionsScript : MonoBehaviour {
 	void Update () {
 		
 	}
+
+	public void Scavenge(){
+		
+	}
+
+	public void ImproveDefences(){
+
+	}
+
+	public void GrowCrops(){
+
+	}
+
+	public void Skip(){
+
+	}
+
 }

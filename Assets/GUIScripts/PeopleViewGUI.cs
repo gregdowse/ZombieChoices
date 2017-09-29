@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PeopleOverviewGUI : MonoBehaviour {
+public class PeopleViewGUI : MonoBehaviour {
 
 	public GameObject PersonHolder;
 	public GameObject PeopleViewHolder;
@@ -23,7 +23,19 @@ public class PeopleOverviewGUI : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-
+		gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
+		gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
+		gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
+		gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
+		gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
+		gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
+		gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
+		gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
+		gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
+		gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
+		gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
+		gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
+		gameObject.GetComponent<PersonGenerator> ().GeneratePerson ();
 		CloseButton.onClick.AddListener (CloseButtonFunction);
 		ShowPeople ();
 
@@ -39,7 +51,7 @@ public class PeopleOverviewGUI : MonoBehaviour {
 		int x = 0;
 		int y = 0;
 		for (int i = 0; i < gameObject.GetComponent<SettlementScript>().People.Count; i++) {
-            if (x > 2) {
+            if (x == 2) {
                 y++;
                 x = 0;
             }
@@ -47,12 +59,12 @@ public class PeopleOverviewGUI : MonoBehaviour {
 			PeopleTiles.Add (Person);
 			Person.transform.SetParent(InternalHolder.transform);
 			Person.transform.localScale = new Vector3 (1,1,1);
-			Person.transform.localPosition = new Vector3(-630 + (630 * x),310 - (y * 250),0);
+			Person.transform.localPosition = new Vector3(50 + (630 * x), -50 - (y * 250),0);
 			Person.transform.SetAsFirstSibling ();
 			x++;
 		}
         if(y > 2){
-            DownButton.GetComponent<DownButtonClickScript>().BreakPoint = (y * 250) + 130 - 750;
+            DownButton.GetComponent<DownButtonClickScript>().BreakPoint = (y * 250) - 750;
         }
 
 	}
