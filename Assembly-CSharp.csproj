@@ -52,6 +52,7 @@
      <Compile Include="Assets\GUIScripts\DownButtonClickScript.cs" />
      <Compile Include="Assets\GUIScripts\PeopleViewGUI.cs" />
      <Compile Include="Assets\GUIScripts\UpButtonClickScript.cs" />
+     <Compile Include="Assets\OptionsScript.cs" />
      <Compile Include="Assets\PersonClass.cs" />
      <Compile Include="Assets\PersonGenerator.cs" />
      <Compile Include="Assets\SettlementScript.cs" />

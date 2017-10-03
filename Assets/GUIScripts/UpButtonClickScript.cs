@@ -11,9 +11,15 @@ public class UpButtonClickScript : MonoBehaviour, IPointerDownHandler, IPointerU
 	private bool Moving;
 
 	void Update(){
-		
+		var d = Input.GetAxis("Mouse ScrollWheel");
+		if (d > 0f) {
+			ThingMoving.transform.localPosition += new Vector3 (0,Mathf.Abs(d) * -Camera.main.GetComponent<OptionsScript>().ScrollSpeed,0);
+		}
+
+
+
 		if (Moving) {
-			ThingMoving.transform.localPosition += new Vector3 (0,Speed,0);
+			ThingMoving.transform.localPosition += new Vector3 (0,-Camera.main.GetComponent<OptionsScript>().ButtonSpeed,0);
 		}
 
 		if (ThingMoving.transform.localPosition.y <= BreakPoint) {

@@ -1,11 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/GUIScripts/PeopleViewGUI.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/OptionsScript.cs">
     <Files>
-      <File FileName="Assets/DecisionsScript.cs" Line="17" Column="24" />
-      <File FileName="Assets/SettlementScript.cs" Line="31" Column="1" />
-      <File FileName="Assets/PersonGenerator.cs" Line="9" Column="30" />
-      <File FileName="Assets/GUIScripts/PeopleViewGUI.cs" Line="38" Column="65" />
+      <File FileName="Assets/OptionsScript.cs" Line="12" Column="7" />
+      <File FileName="Assets/GUIScripts/PeopleViewGUI.cs" Line="1" Column="1" />
+      <File FileName="Assets/GUIScripts/DownButtonClickScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/GUIScripts/UpButtonClickScript.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

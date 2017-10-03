@@ -40,6 +40,10 @@ public class PeopleViewGUI : MonoBehaviour {
 		ShowPeople ();
 
 	}
+
+	void Update(){
+		
+	}
 		
 
 	void CloseButtonFunction(){
