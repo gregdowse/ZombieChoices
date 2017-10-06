@@ -1,10 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/OptionsScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/EventScript.cs">
     <Files>
-      <File FileName="Assets/OptionsScript.cs" Line="12" Column="7" />
+      <File FileName="Assets/EventScript.cs" Line="50" Column="25" />
       <File FileName="Assets/GUIScripts/PeopleViewGUI.cs" Line="1" Column="1" />
-      <File FileName="Assets/GUIScripts/DownButtonClickScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/OptionsScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/GUIScripts/DownButtonClickScript.cs" Line="14" Column="46" />
       <File FileName="Assets/GUIScripts/UpButtonClickScript.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>

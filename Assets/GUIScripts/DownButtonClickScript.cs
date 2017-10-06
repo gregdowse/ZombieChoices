@@ -12,7 +12,6 @@ public class DownButtonClickScript : MonoBehaviour, IPointerDownHandler, IPointe
 
 	void Update(){
 		var d = Input.GetAxis("Mouse ScrollWheel");
-		print (d);
 		if (d < 0f) {
 			ThingMoving.transform.localPosition += new Vector3 (0,Mathf.Abs(d) * Camera.main.GetComponent<OptionsScript>().ScrollSpeed,0);
 		}
