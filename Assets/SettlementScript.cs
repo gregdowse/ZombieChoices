@@ -42,6 +42,10 @@ public class SettlementScript : MonoBehaviour {
 		
 	}
 
+	public void StartNewGame(){
+		gameObject.GetComponent<EventScript> ().ShowStart ();
+	}
+
 
 	public void UpdatePeopleView(){
 

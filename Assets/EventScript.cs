@@ -73,7 +73,7 @@ public class EventScript : MonoBehaviour {
 		StartView.SetActive (false);
 		MainChoicesView.SetActive (false);
 		EventResultsView.SetActive (false);
-		EventChoicesView.SetActive (false);
+		//EventChoicesView.SetActive (false);
 	}
 
 }

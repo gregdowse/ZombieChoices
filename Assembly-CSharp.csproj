@@ -50,12 +50,14 @@
      <Compile Include="Assets\Classes\ItemClass.cs" />
      <Compile Include="Assets\Classes\PersonClass.cs" />
      <Compile Include="Assets\EventScript.cs" />
+     <Compile Include="Assets\GUIController.cs" />
      <Compile Include="Assets\GUIScripts\DownButtonClickScript.cs" />
      <Compile Include="Assets\GUIScripts\PeopleViewGUI.cs" />
      <Compile Include="Assets\GUIScripts\UpButtonClickScript.cs" />
      <Compile Include="Assets\OptionsScript.cs" />
      <Compile Include="Assets\PersonGenerator.cs" />
      <Compile Include="Assets\SettlementScript.cs" />
+     <Compile Include="Assets\StartMenuScript.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
